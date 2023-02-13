@@ -691,6 +691,15 @@ input[type=checkbox]:checked + label:before {
     border-radius: 3px;
     text-transform: uppercase;
 }
+.top-header .sign-out, .top-header .sign-out:hover {
+    line-height: 36px;
+    color: #ececec;
+    font-size: 13px;
+    background: #2c3b6d;
+    padding: 4px 10px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
 
 .top-header ul li a {
     color: #fff;
@@ -700,6 +709,22 @@ input[type=checkbox]:checked + label:before {
 
 
 .th-2 .sign-in, .top-header .sign-in:hover {
+    line-height: 50px;
+    color: #ececec;
+    font-size: 13px;
+    background: #2c3b6d;
+    padding: 4px 10px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    background: rgba(0,0,0,0.15);
+    -webkit-box-shadow: 0px 0px 0px 2px rgba(255,255,255,0.2);
+    box-shadow: 0px 0px 0px 1px rgba(255,255,255,0.2);
+}
+
+.top-header .sign-out, .top-header .sign-out:hover
+
+
+.th-2 .sign-out, .top-header .sign-out:hover {
     line-height: 50px;
     color: #ececec;
     font-size: 13px;
